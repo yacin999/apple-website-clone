@@ -14,6 +14,7 @@ import {
 const App = () => {
   return (
     <div className="bg-black min-h-screen w-full">
+      {/* these components are for learning perpses */}
       <Router>
         <Routes>
           <Route path="/gsapto" element={<GsapTo />} />
