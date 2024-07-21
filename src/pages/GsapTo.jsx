@@ -1,5 +1,18 @@
+import { useGSAP } from "@gsap/react";
+import  gsap from "gsap"
+
+
 const GsapTo = () => {
   // TODO: Implement the gsap.to() method
+  // let gsap = gsap.timeline()
+  // gsap.to(".blue-box", "100")
+
+  useGSAP(()=> {
+    gsap.to("#blue-box", {
+      x : 250,
+
+    })
+  })
 
   return (
     <main>
