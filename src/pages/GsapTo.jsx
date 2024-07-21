@@ -11,7 +11,8 @@ const GsapTo = () => {
     gsap.to("#blue-box", {
       x : 250,
       repeat : -1,
-      yoyo : true
+      yoyo : true,
+      rotation : 360
     })
   })
 
