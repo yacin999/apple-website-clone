@@ -1,10 +1,11 @@
 import { useGSAP } from "@gsap/react";
+import gsap from "gsap"
 
 const GsapFrom = () => {
   // TODO: Implement the gsap.from() method!
 
   useGSAP(( ()=> {
-
+    
   }))
   
   return (
