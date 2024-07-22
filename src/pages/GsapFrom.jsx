@@ -1,6 +1,12 @@
-const GsapFrom = () => {
-  // TODO: Implement the gsap.from() method
+import { useGSAP } from "@gsap/react";
 
+const GsapFrom = () => {
+  // TODO: Implement the gsap.from() method!
+
+  useGSAP(( ()=> {
+
+  }))
+  
   return (
     <main>
       <h1>GsapFrom</h1>
