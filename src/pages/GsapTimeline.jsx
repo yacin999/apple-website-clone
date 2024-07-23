@@ -75,7 +75,7 @@ const GsapTimeline = () => {
       <div className="mt-20 space-y-10">
         <button onClick={() => {
           if (timeline.paused()) {
-            timeline.resume()
+            timeline.play()
           }else {
             timeline.pause()
           }
