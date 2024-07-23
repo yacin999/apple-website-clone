@@ -16,6 +16,10 @@ const GsapTo = () => {
       duration : 2,
       ease : "elastic" 
     })
+
+    // gsap.to("#blue-box", { x: 100, duration: 2 });
+    // gsap.to("#blue-box", { y: 50, duration: 1, delay: 1 }); //wait 1 second
+    // gsap.to("#blue-box", { opacity: 0, duration: 1, delay: 2 }); //wait 2 
   })
 
   return (

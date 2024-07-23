@@ -17,7 +17,7 @@ const GsapFromTo = () => {
     borderRadius : "100%",
     rotation : 360,
     duration : 2,
-    ease : 'power1.inOut'
+    ease : 'bounce.out'
   })
   })
   return (
