@@ -7,7 +7,15 @@ const GsapStagger = () => {
 
   useGSAP(()=> {
     gsap.to(".stagger-box", {
-      
+      y : 100,
+      opacity : 0,
+      rotation : 360,
+      borderRadius : "100%",
+      yoyo : true,
+      // repeat : -1,
+      duration : 1,
+      ease : "back.in",
+      stagger : 0.5
     })
   })
 
