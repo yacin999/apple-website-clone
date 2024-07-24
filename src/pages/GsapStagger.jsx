@@ -12,8 +12,8 @@ const GsapStagger = () => {
       rotation : 360,
       borderRadius : "100%",
       yoyo : true,
-      // repeat : -1,
-      duration : 1,
+      repeat : -1,
+      duration : 2,
       ease : "back.in",
       stagger : 0.5
     })
