@@ -1,5 +1,17 @@
+import { useGSAP } from "@gsap/react";
+import gsap from "gsap";
+import { ScrollTrigger } from "gsap/all";
+
 const GsapScrollTrigger = () => {
   // TODO: Implement the gsap scroll trigger
+  gsap.registerPlugin(ScrollTrigger)
+  useGSAP(()=> {
+    gsap.to("#scroll-pink", {
+      scrollTrigger : "#scroll-pink",
+      x : 100
+    })
+  })
+
 
   return (
     <main>
