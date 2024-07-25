@@ -9,6 +9,7 @@ const GsapText = () => {
   // TODO: Implement gsap text animation
   useGSAP(()=> {
     gsap.to("#text", {
+      duration : 2,   
       opacity : 1,
       text : {
         value : "another animated text"
