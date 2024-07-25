@@ -8,13 +8,20 @@ gsap.registerPlugin(TextPlugin)
 const GsapText = () => {
   // TODO: Implement gsap text animation
   useGSAP(()=> {
-    gsap.to("#text", {
-      duration : 2,   
+    gsap.to("#text", {   
       opacity : 1,
-      text : {
-        value : "another animated text"
-      }
+      ease : "power1.inOut",
+      y : 0,
     })
+
+    gsap.fromTo(".para", {
+      opacity : 0,
+      y : 20,
+    }, {
+      opacity : 1,
+      y : 0
+    })
+
   }, [])
   return (
     <main>
